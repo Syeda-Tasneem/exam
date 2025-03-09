@@ -1,0 +1,19 @@
+POST http://localhost:3000/tasks
+Content-type : application/json
+{
+    title:"HTML"
+    description:"To design Website"
+}
+
+GET http://localhost:3000/tasks
+
+GET http://localhost:3000/tasks/1
+
+PUT http://localhost:3000/tasks/1
+Content-type : application/json
+{
+    title:"HTML"
+    description:"To design and create Website"
+}
+
+GET http://localhost:3000/tasks/1
